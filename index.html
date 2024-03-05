@@ -143,7 +143,65 @@
             </div>
           </div>
         </section>
-        <section class="reservation" id="reservation"></section>
+        <section class="reservation" id="reservation">
+          <h1 class="reservation__title">Reservar uma mesa</h1>
+          <form class="reservation__form">
+            <fieldset class="form__fieldset">
+              <label class="form__label" for="name">Nome *</label>
+              <input
+                type="text"
+                class="form__input form__input_name"
+                id="name"
+                name="name"
+                placeholder="Nome"
+              />
+
+              <label class="form__label" for="guest-number"
+                >Número de convidados *</label
+              >
+              <input
+                type="number"
+                class="form__input form__input_guest-number"
+                id="guest-number"
+                name="guest-number"
+                min="1"
+                max="8"
+                placeholder="1-8"
+              />
+
+              <label class="form__label" for="date">Data & hora *</label>
+              <input
+                type="date"
+                class="form__input form__input_date"
+                id="date"
+                name="date"
+              />
+
+              <label class="form__label" for="email">Seu e-mail *</label>
+              <input
+                type="email"
+                class="form__input form__input_email"
+                id="email"
+                name="email"
+                placeholder="email@email.com"
+              />
+            </fieldset>
+            <button class="form__button" type="submit">
+              Reservar uma mesa
+            </button>
+            <label class="form__label form__label_checkbox" for="agree"
+              >Eu concordo com os termos de uso
+              <input
+                type="checkbox"
+                name="agree"
+                id="agree"
+                value="agree"
+                class="form__input form__input_checkbox"
+                required
+              />
+            </label>
+          </form>
+        </section>
         <section class="menu" id="menu"></section>
         <section class="about" id="about"></section>
       </main>
