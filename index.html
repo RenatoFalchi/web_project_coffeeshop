@@ -145,9 +145,13 @@
         </section>
         <section class="reservation" id="reservation">
           <h1 class="reservation__title">Reservar uma mesa</h1>
-          <form class="reservation__form">
-            <fieldset class="reservation__form_fieldset">
-              <label class="reservation__form_label" for="name">Nome *</label>
+          <form class="reservation__form reservation__form_itens">
+            <fieldset class="reservation__form reservation__form_fieldset">
+              <label
+                class="reservation__form reservation__form_label"
+                for="name"
+                >Nome *</label
+              >
               <input
                 type="text"
                 class="form__input form__input_name"
@@ -157,7 +161,9 @@
                 required
               />
 
-              <label class="reservation__form_label" for="guest-number"
+              <label
+                class="reservation__form reservation__form_label"
+                for="guest-number"
                 >Número de convidados *</label
               >
               <input
@@ -171,7 +177,9 @@
                 required
               />
 
-              <label class="reservation__form_label" for="date"
+              <label
+                class="reservation__form reservation__form_label"
+                for="date"
                 >Data & hora *</label
               >
               <input
@@ -182,7 +190,9 @@
                 required
               />
 
-              <label class="reservation__form_label" for="email"
+              <label
+                class="reservation__form reservation__form_label"
+                for="email"
                 >Seu e-mail *</label
               >
               <input
@@ -198,7 +208,7 @@
               Reservar uma mesa
             </button>
             <label
-              class="reservation__form_label reservation__form_label_checkbox"
+              class="reservation__form reservation__form_label reservation__form_label_checkbox"
               for="agree"
               >Eu concordo com os termos de uso
               <input
