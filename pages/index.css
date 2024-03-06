@@ -240,7 +240,7 @@
   max-width: 385px;
 }
 
-.form__reservation_fieldset {
+.form__fieldset_itens {
   display: flex;
   flex-direction: column;
   max-width: 385px;
