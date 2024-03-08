@@ -6,8 +6,9 @@
     <meta name="author" content="Renato Falchi" />
     <meta name="description" content="Cafe TripleTen reservas e sobre" />
     <meta name="keywords" content="Cafe, reservas, sobre, menu, precos" />
+
     <title>Cafe TripleTen</title>
-    <link rel="stylesheet" href="./vendor/normalize.css" />
+
     <link rel="stylesheet" href="./pages/index.css" />
     <link rel="shortcut icon" href="favicon.ico" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -225,8 +226,139 @@
             </label>
           </form>
         </section>
-        <section class="menu" id="menu"></section>
-        <section class="about" id="about"></section>
+        <section class="menu" id="menu">
+          <h2 class="menu__title">Cardápio</h2>
+          <p class="menu__subtitle">
+            Preparamos café a partir de grãos torrados localmente com
+            certificação Fairtrade e usamos xícaras biodegradáveis. Todos os
+            chás da nossa coleção custam R$20/xícara.
+          </p>
+          <div class="menu__cards">
+            <div class="card">
+              <h3 class="card__title card__title_style">Filtro</h3>
+              <ul class="card__content card__content_style">
+                <li class="card__list-item card__list-item_style">
+                  Regular (350 ml)
+                  <span class="card__list-divider"></span>
+                  R$10
+                </li>
+
+                <li class="card__list-item card__list-item_style">
+                  Grande (470 ml)
+                  <span class="card__list-divider"></span>
+                  R$12,5
+                </li>
+
+                <li class="card__list-item card__list-item_style">
+                  Extra grande (590 ml)
+                  <span class="card__list-divider"></span>
+                  R$15
+                </li>
+
+                <li class="card__list-item card__list-item_style">
+                  Tamanho do copo (700 ml descafeinado)
+                  <span class="card__list-divider"></span>
+                  R$17,5
+                </li>
+
+                <li class="card__list-item card__list-item_style">
+                  Café Gelado (470 ml)
+                  <span class="card__list-divider"></span>
+                  R$12,5
+                </li>
+              </ul>
+            </div>
+
+            <div class="card">
+              <h3 class="card__title card__title_style">Expresso</h3>
+              <ul class="card__content card__content_style">
+                <li class="card__list-item card__list-item_style">
+                  Macchiato
+                  <span class="card__list-divider"></span>
+                  R$22,5
+                </li>
+
+                <li class="card__list-item card__list-item_style">
+                  Cortado
+                  <span class="card__list-divider"></span>
+                  R$22,5
+                </li>
+
+                <li class="card__list-item card__list-item_style">
+                  Mocha
+                  <span class="card__list-divider"></span>
+                  R$30
+                </li>
+
+                <li class="card__list-item card__list-item_style">
+                  Nascer do sol na Área da Baía (descafeinado)
+                  <span class="card__list-divider"></span>
+                  R$10
+                </li>
+              </ul>
+            </div>
+
+            <div class="card">
+              <h3 class="card__title card__title_style">Produtos de Padaria</h3>
+              <ul class="card__content card__content_style">
+                <li class="card__list-item card__list-item_style">
+                  Croissant de Amêndoa
+                  <span class="card__list-divider"></span>
+                  R$20
+                </li>
+
+                <li class="card__list-item card__list-item_style">
+                  Pão de Banana
+                  <span class="card__list-divider"></span>
+                  R$17,5
+                </li>
+
+                <li class="card__list-item card__list-item_style">
+                  Torta de Limão
+                  <span class="card__list-divider"></span>
+                  R$30
+                </li>
+
+                <li class="card__list-item card__list-item_style">
+                  Bolo Veludo Azul
+                  <span class="card__list-divider"></span>
+                  R$37,5
+                </li>
+
+                <li class="card__list-item card__list-item_style">
+                  Cookie web
+                  <span class="card__list-divider"></span>
+                  R$20
+                </li>
+
+                <li class="card__list-item card__list-item_style">
+                  Baguete fresc
+                  <span class="card__list-divider"></span>
+                  R$2,5
+                </li>
+              </ul>
+            </div>
+          </div>
+        </section>
+        <section class="about" id="about">
+          <h2 class="about__title">Sobre o café</h2>
+          <div class="about__content">
+            <p class="about__paragraph">
+              Nosso café está localizado na biblioteca Triple Peaks. Possui 6
+              mesas e Wi-Fi gratuito.
+            </p>
+            <p class="about__paragraph">
+              Nossa principal missão é manter nossos hóspedes confortáveis e
+              energizados.
+            </p>
+            <p class="about__paragraph">
+              Além disso, tentamos reduzir nosso impacto ambiental para não
+              vendermos copos descartáveis. Mas você pode comprar um de nossos
+              copos reutilizáveis!
+            </p>
+          </div>
+          <div class="about__circle"></div>
+        </section>
       </main>
       <footer class="footer"></footer>
     </div>
