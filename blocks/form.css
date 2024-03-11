@@ -1,13 +1,3 @@
-.reservation__form_itens {
-  display: flex;
-  flex-direction: column;
-  margin-top: 80px;
-  margin-bottom: 120px;
-  border: none;
-  width: 385px;
-  max-width: 385px;
-}
-
 .reservation__form_fieldset {
   display: flex;
   flex-direction: column;
