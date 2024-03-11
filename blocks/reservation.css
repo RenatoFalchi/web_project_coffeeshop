@@ -24,12 +24,7 @@
   line-height: 52px;
 }
 
-.reservation__form_itens {
-  display: flex;
-  flex-direction: column;
+.reservation__form {
   margin-top: 80px;
   margin-bottom: 120px;
-  border: none;
-  width: 385px;
-  max-width: 385px;
 }
